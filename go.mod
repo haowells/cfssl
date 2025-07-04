@@ -1,10 +1,11 @@
-module github.com/cloudflare/cfssl
+module github.com/haowells/cfssl
 
 go 1.24
 
 require (
 	bitbucket.org/liamstask/goose v0.0.0-20150115234039-8488cc47d90c
 	github.com/cloudflare/backoff v0.0.0-20161212185259-647f3cdfc87a
+	github.com/cloudflare/cfssl v1.6.5
 	github.com/cloudflare/redoctober v0.0.0-20211013234631-6a74ccc611f6
 	github.com/go-sql-driver/mysql v1.8.0
 	github.com/google/certificate-transparency-go v1.1.8
@@ -30,7 +31,6 @@ require (
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common v0.48.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
-	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/weppos/publicsuffix-go v0.30.0 // indirect
 	github.com/ziutek/mymysql v1.5.4 // indirect
 	golang.org/x/net v0.41.0 // indirect
